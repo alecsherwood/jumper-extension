@@ -1,7 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Jumper",
+  "name": "Jumper Extension",
+  "description": "Chrome extension for controling browser via MIDI Signals.",
   "version": "1.0.0",
+  "actions": {
+    "default_popup": "index.html",
+    "default_title": "Jumper Extension Settings"
+  },
   "content_scripts": [
     {
       "matches": [
